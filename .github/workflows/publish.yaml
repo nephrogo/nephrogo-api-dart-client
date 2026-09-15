@@ -21,7 +21,7 @@ jobs:
       - uses: actions/setup-java@v3
         with:
           distribution: 'adopt'
-          java-version: 15
+          java-version: 25.0.4+101.0.LTS
 
       - run: wget https://repo1.maven.org/maven2/org/openapitools/openapi-generator-cli/5.1.1/openapi-generator-cli-5.1.1.jar -O openapi-generator-cli.jar
 
